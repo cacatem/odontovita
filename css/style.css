@@ -470,6 +470,10 @@ footer .container {
     .mosaic-social div:nth-child(6) /* target sixth img */{
         border-right: 6px solid white;
     }
+    section.treatments .treatments-container {
+        float: left;
+        width: 100%;
+    }
 }
 @media screen and (max-width: 768px) {
     section.services > .container {
