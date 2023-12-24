@@ -51,7 +51,8 @@ nav.menu-mobile ul {
     background-color: white;
 }
 nav.menu-mobile ul li {
-    padding: 8px 0;
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     text-transform: uppercase;
     background: rgb(255,255,255);
     background: radial-gradient(circle, rgba(255,255,255,0) 0%, rgba(133,133,133,0.34637605042016806) 100%);
