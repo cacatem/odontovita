@@ -12,9 +12,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/jquery.js"></script>
-    <script src="js/script.js"></script>
     <title>OdontoVita</title>
+    <script src="js/jquery.js"></script>
+    <script src="js/menu-mobile.js"></script>
+    <script src="js/dinamic-scrollbar.js"></script>
 </head>
 <body>
     <header>
@@ -26,18 +27,18 @@
         <div class="container">
             <nav class="menu-desktop">
                 <ul>
-                    <li><a href="">quem somos</a></li>
-                    <li><a href="">depoimentos</a></li>
-                    <li><a href="">sobre</a></li>
-                    <li><a href="">contato</a></li>
+                    <li><a href="#quemSomos">quem somos</a></li>
+                    <li><a href="#depoimentos">depoimentos</a></li>
+                    <li><a href="#sobre">sobre</a></li>
+                    <li><a href="#contato">contato</a></li>
                 </ul>
             </nav>
             <nav class="menu-mobile">
                 <ul>
-                    <li><a href="">quem somos</a></li>
-                    <li><a href="">depoimentos</a></li>
-                    <li><a href="">sobre</a></li>
-                    <li><a href="">contato</a></li>
+                    <li><a href="#quemSomos">quem somos</a></li>
+                    <li><a href="#depoimentos">depoimentos</a></li>
+                    <li><a href="#sobre">sobre</a></li>
+                    <li><a href="#contato">contato</a></li>
                 </ul>
             </nav>
             <div class="clear"></div><!--clear-->
@@ -89,7 +90,7 @@
             </div><!--box-service-->
         </div><!--container-->
     </section><!--services-->
-    <section class="profile-container">
+    <section id="quemSomos" class="profile-container">
         <div class="container">
             <div class="profile-wraper">
                 <div class="profile-wraper2">
@@ -122,7 +123,7 @@
             <div class="clear"></div>
         </div><!--container-->
     </section><!--videos-->
-    <section class="treatments">
+    <section id="sobre" class="treatments">
         <h2>Tratamentos</h2>
         <div class="container">
             <div class="treatments-container">
@@ -170,7 +171,7 @@
             <div class="clear"></div>
         </div><!--container-->
     </section><!--treatments-->
-    <section class="depo">
+    <section id="depoimentos" class="depo">
         <h2>Depoimentos</h2>
         <div class="container">
             <div class="depo-single">
@@ -206,7 +207,7 @@
         </div><!--facebook-call-->
         <div class="clear"></div><!--clear-->
     </section><!--social-->
-    <section class="contato">
+    <section id="contato" class="contato">
         <h2>Contato</h2>
         <form>
             <div class="form-wraper w100">

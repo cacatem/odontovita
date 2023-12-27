@@ -31,9 +31,9 @@ header .logo img {
     width: 236px;
 }
 nav.menu-mobile {
+    display: none;
     float: right;
     margin-top: 5px;
-    display: none;
     width: 32px;
     height: 32px;
     cursor: pointer;
@@ -61,13 +61,13 @@ header nav.menu-desktop {
     float: right;
 }
 header nav.menu-desktop ul {
-    padding: 8px 0;
+    padding: 15px 0px 0px 5px;
     list-style-type: none;
 }
 header nav.menu-desktop ul li {
     float: left;
     font-size: 15px;
-    padding: 0 20px;
+    padding: 0 15px;
     text-transform: uppercase;
 }
 header nav ul li a {
@@ -240,23 +240,26 @@ section.treatments > h2 {
 }
 section.treatments {
     background-color: #f7f6f6;
-    padding: 60px 0;
+    padding: 40px 0;
 }
 section.treatments > .container {
-    padding: 60px 0;
+    padding: 40px 0;
 }
 .treatments-single {
     padding: 20px;
 }
 .treatments-single h2 {
-    padding: 10px 0;
     font-size: 20px;
     color: #494949;
 }
 .treatments-single p {
     font-size: 15px;
     color: #414141;
+    padding: 10px;
     font-weight: normal;
+    border-bottom: 4px solid rgb(139, 139, 139);
+    border-right: 4px solid rgb(167, 167, 167);
+    border-radius: 15px;
 }
 /***/
 
@@ -474,6 +477,11 @@ footer .container {
     section.treatments .treatments-container {
         float: left;
         width: 100%;
+    }
+    .treatments-single p {
+        padding: 0;
+        border-bottom: none;
+        border-right: none;
     }
 }
 @media screen and (max-width: 768px) {
